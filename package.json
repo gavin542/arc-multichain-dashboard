@@ -1,0 +1,17 @@
+{
+  "name": "multichain-dashboard",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Multi-chain USDC fund management dashboard on Arc Testnet - View balances, transfer, and track across chains",
+  "scripts": {
+    "balances": "node scripts/balances.mjs",
+    "transfer": "node scripts/transfer.mjs",
+    "gateway-balance": "node scripts/gateway-balance.mjs",
+    "demo": "node scripts/run-demo.mjs"
+  },
+  "dependencies": {
+    "@circle-fin/developer-controlled-wallets": "^10.1.0",
+    "dotenv": "^16.3.1",
+    "viem": "^2.46.3"
+  }
+}
